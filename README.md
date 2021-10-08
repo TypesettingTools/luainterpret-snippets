@@ -11,5 +11,18 @@ Note that these are *not* standalone scripts. They are only meant to be used wit
 
 Wrote an useful snippet yourself? Send in a pull request!
 
+It's recommended to add a short README-like section at the top of the snippet. For instance:
+
+```lua
+--[[ Chromatic Abberration made simple, by petzku
+
+Simple LuaInterpret snippet to generate a basic "chromatic aberration" effect for the selected lines.
+Creates two "shadows" of the line, one red and one green, offset to each side.
+
+Edit the variables below to adjust aberration appearance.
+
+ver 1.1.1
+]]
+```
 
 [lua-interpret]: https://github.com/lyger/Aegisub_automation_scripts#LuaInterpret
