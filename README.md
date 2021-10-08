@@ -9,7 +9,7 @@ Note that these are *not* standalone scripts. They are only meant to be used wit
 
 ## Contributing
 
-Wrote an useful snippet yourself? Send in a pull request!
+Wrote a useful snippet yourself? Send in a pull request!
 
 It's recommended to add a short README-like section at the top of the snippet. For instance:
 
