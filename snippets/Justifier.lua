@@ -5,10 +5,10 @@ FSP_VALUE = 5
 
 
 local fsp_spacing_tag = "{\\fsp" .. FSP_VALUE .. "}"
+local fsp_reset = "{\\fsp" .. get('fsp') .. "}"
 local function process_word(word, is_first_word, is_last_word)
     local len = #word
     local before_last_char, last_char = word:sub(1, len - 1), word:sub(len)
-    local fsp_reset = "{\\fsp" .. get('fsp') .. "}"
     if len == 1 then
         if is_first_word then
             mod("fsp", rep(FSP_VALUE))
